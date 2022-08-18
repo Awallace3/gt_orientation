@@ -10,10 +10,22 @@
 <script>
     function computePi(){
     let pi_guess = 0
+    let n = 100;
+    let cirlcePoints = 0;
+    let squarePoints = 0;
+    let n1 = 0;
+    let n2 = 0;
+    let dis = 0
+    
     // START WRITING CODE HERE
     
     
+    
+    
     // END WRITING CODE 
+    
+    pi_guess = pi_guess.toFixed(16)
+    let output = "Pi estimate:\n" + pi_guess + "\nPi:\n" + Math.PI
     document.getElementById("pi_guess").innerHTML = pi_guess
     document.getElementById("pi").innerHTML = Math.PI
     return output
