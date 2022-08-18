@@ -34,5 +34,5 @@
 ```
 
 # Acknowledgements
-More information on generating Pi from a Monte Carlo algorithm can be found [here](https://www.geeksforgeeks.org/estimating-value-pi-using-monte-carlo/)
+More information on generating Pi from a Monte Carlo algorithm can be found [here](https://blogs.sas.com/content/iml/2016/03/14/monte-carlo-estimates-of-pi.html)
 
