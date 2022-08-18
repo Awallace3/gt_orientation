@@ -27,8 +27,15 @@
     let n2 = 0;
     let distance = 0;
     for (let i =0; i <= n; i++){
+        n1 = Math.random()
+        n2 = Math.random()
+        distance = Math.sqrt(n1**2 + n2**2)
+        if (distance <= 1){
+            circlePoints ++;
+        }
         squarePoints++;
     }
+    pi_guess = 4 * circlePoints / squarePoints
     
     pi_guess = pi_guess.toFixed(16)
     let output = "Pi estimate:\n" + pi_guess + "\nPi:\n" + Math.PI
