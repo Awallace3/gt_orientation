@@ -1,3 +1,7 @@
+# Objective
+- Students will learn how to implement a Monte Carlo program by estimating Pi
+  through a JavaScript activity
+
 # Instructions
 
 1. Open the following link for online editor or use your own!
