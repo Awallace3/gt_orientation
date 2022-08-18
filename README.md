@@ -1,8 +1,9 @@
 # Instructions
 
 1. Open the following link for online editor or use your own!
- (codepen.io)[https://codepen.io]
-2. Copy the text below and past into codepen.io's HTML tab
+ [codepen.io](https://codepen.io/pen/)
+2. Copy the text below by clicking the clipboard button on top right corner and
+   past into codepen.io's HTML tab
 
 ```
 <div>
