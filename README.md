@@ -11,10 +11,7 @@
 <div>
 <script>
     function computePi(){
-    
-    // START
     // try changing the value for n
-    
     let n = 100;
     
     let pi_guess = 0;
@@ -24,12 +21,15 @@
     let n2 = 0;
     let distance = 0;
     for (let i =0; i <= n; i++){
-        n1 = Math.random()
-        n2 = Math.random()
-        dis = Math.sqrt(n1**2 + n2 **2)
-        if (dis <= 1){
-            circle++;
-        }
+        // START CODING HERE
+        
+        
+        
+        
+        
+        
+        squarePoints++;
+        // END CODING HERE
     }
     
     pi_guess = pi_guess.toFixed(16)
