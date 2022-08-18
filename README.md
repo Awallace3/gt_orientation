@@ -14,6 +14,8 @@
 ```
 <div>
 <script>
+    // FOCUS HERE
+    
     function computePi(){
     // try changing the value for n
     let n = 100;
@@ -25,22 +27,23 @@
     let n2 = 0;
     let distance = 0;
     for (let i =0; i <= n; i++){
-        // START CODING HERE
-        
-        
-        
-        
-        
-        
+        n1 = Math.random()
+        n2 = Math.random()
+        distance = Math.sqrt(n1**2 + n2**2)
+        if (distance <= 1){
+            circlePoints ++;
+        }
         squarePoints++;
-        // END CODING HERE
     }
+    pi_guess = 4 * circlePoints / squarePoints
     
     pi_guess = pi_guess.toFixed(16)
     let output = "Pi estimate:\n" + pi_guess + "\nPi:\n" + Math.PI
     document.getElementById("pi_guess").innerHTML = pi_guess
     document.getElementById("pi").innerHTML = Math.PI
     return output
+    
+    // IGNORE BELOW THIS LINE
 }
 </script>
     <button id="btn" onclick="computePi()">
