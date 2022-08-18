@@ -1,0 +1,35 @@
+<div>
+<script>
+  function computePi(){
+  let n = 10000000;
+  let circle = 0;
+  let n1 = 0;
+  let n2 = 0;
+  let dis = 0
+  for (let i =0; i <= n; i++){
+    n1 = Math.random()
+    n2 = Math.random()
+    dis = Math.sqrt(n1**2 + n2 **2)
+    if (dis <= 1){
+      circle++;
+    }
+  }
+  let pi_guess = 4 * circle / n
+  pi_guess = pi_guess.toFixed(16)
+  let output = "Pi estimate:\n" + pi_guess + "\nPi:\n" + Math.PI
+  //alert(output)
+    document.getElementById("pi_guess").innerHTML = pi_guess
+    document.getElementById("pi").innerHTML = Math.PI
+  return output
+}
+</script>
+      <button id="btn" onclick="computePi()">Calculate Pi with available points!</button>
+  </br>
+<text>Guess Pi:
+  <b id='pi_guess'></b>
+</text>
+</br>
+<text>Pi actual:
+  <b id='pi'></b>
+</text>
+</div
