@@ -11,7 +11,7 @@
     function computePi(){
     let pi_guess = 0
     let n = 100;
-    let cirlcePoints = 0;
+    let circlePoints = 0;
     let squarePoints = 0;
     let n1 = 0;
     let n2 = 0;
