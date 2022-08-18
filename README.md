@@ -10,6 +10,10 @@
 <script>
     function computePi(){
     let pi_guess = 0
+    // START WRITING CODE HERE
+    
+    
+    // END WRITING CODE 
     document.getElementById("pi_guess").innerHTML = pi_guess
     document.getElementById("pi").innerHTML = Math.PI
     return output
