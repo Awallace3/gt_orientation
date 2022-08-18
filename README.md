@@ -29,3 +29,6 @@
 </div
 ```
 
+# Acknowledgements
+More information on generating Pi from a Monte Carlo algorithm can be found [here](https://www.geeksforgeeks.org/estimating-value-pi-using-monte-carlo/)
+
