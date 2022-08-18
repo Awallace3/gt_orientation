@@ -1,28 +1,36 @@
 # Instructions
 
 1. Open the following link for online editor or use your own!
- [codepen.io](https://codepen.io/pen/)
+   [codepen.io](https://codepen.io/pen/)
 2. Copy the text below by clicking the clipboard button on top right corner and
    past into codepen.io's HTML tab
+3. Try adjusting the values for n. Does this yield better or worse values for
+   matching the actual digits of Pi?
 
 ```
 <div>
 <script>
     function computePi(){
-    let pi_guess = 0
+    
+    // START
+    // try changing the value for n
+    
     let n = 100;
+    
+    let pi_guess = 0;
     let circlePoints = 0;
     let squarePoints = 0;
     let n1 = 0;
     let n2 = 0;
-    let dis = 0
-    
-    // START WRITING CODE HERE
-    
-    
-    
-    
-    // END WRITING CODE 
+    let distance = 0;
+    for (let i =0; i <= n; i++){
+        n1 = Math.random()
+        n2 = Math.random()
+        dis = Math.sqrt(n1**2 + n2 **2)
+        if (dis <= 1){
+            circle++;
+        }
+    }
     
     pi_guess = pi_guess.toFixed(16)
     let output = "Pi estimate:\n" + pi_guess + "\nPi:\n" + Math.PI
